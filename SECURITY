@@ -1,45 +1,68 @@
+
 # Security Policy
 
-## Supported Versions
-The SHA256 Password Cracker project is an educational tool intended for use in authorized, legal, and controlled environments only.
-
----
-
-## Reporting a Vulnerability
-If you discover a security issue or anything that could make this repository unsafe, please report it responsibly.
-
-**How to report:**
-- Open a **private GitHub issue** marked with the label **security**
-- Do **not** include real hashes or sensitive data in the issue
-
-You may contact the maintainer through GitHub Issues:
-- **GitHub Issues:** https://github.com/pesohs/SHA256-Password-Cracking-Project/issues
+This repository contains an educational SHA‑256 password‑cracking demonstration intended for **authorized** and **ethical** cybersecurity research only.
 
 ---
 
 ## Responsible Use Notice
-This repository contains code that can be used for password‑cracking demonstrations. This tool must **only** be used:
 
-- In environments where you have explicit permission  
-- For educational cybersecurity practice  
-- For password recovery on hashes you personally own  
+You may only use this code on:
 
-**You must not use this tool for:**
-- Unauthorized access  
-- Cracking passwords you do not own  
-- Any illegal or unethical activity  
+- Hashes you generated yourself, **or**
+- Hashes you have explicit permission to test.
 
-Misuse of this script is strictly prohibited.
+Any unauthorized usage violates ethical guidelines and may violate local laws.  
+The author is **not responsible** for any misuse of this tool.
 
 ---
 
-## Disclaimer
-This project is provided for **educational and ethical security purposes only**.  
-By using this repository, you agree that:
+## Scope & Limitations
 
-- You are solely responsible for your actions  
-- The author is not liable for misuse or resulting harm  
-- You will abide by all relevant laws and authorization requirements  
+- This tool is strictly for **educational and research** environments.  
+- No wordlists are included to avoid licensing or misuse concerns.  
+- The project is provided **as-is** and is **not actively maintained**.
 
-If you are unsure whether something is permitted — **do not use the tool**.
+---
+
+## Reporting Vulnerabilities
+
+If you discover a bug or a security concern **in this repository**, please report it privately:
+
+- Open a **private GitHub security advisory**  
+- https://github.com/pesohs/SHA256-Password-Cracking-Project/security/advisories  
+- OR contact me via GitHub  
+- https://github.com/pesohs
+
+Please **do not** open public issues for sensitive findings.
+
+---
+
+## Disclosure Policy
+
+- Please allow reasonable time for assessment and fixes before making anything public.
+- Proof-of-concept details should be shared privately first.
+- No guarantees of response times or ongoing maintenance are provided.
+
+---
+
+## Contribution Guidelines
+
+Contributions are welcome **as long as they support responsible, ethical use**.
+
+Examples of allowed contributions:
+
+- Code optimization  
+- Documentation improvements  
+- Security best-practice suggestions  
+- Testing enhancements  
+- Defensive / educational content  
+
+Examples of disallowed contributions:
+
+- Malicious automation  
+- Exploits targeting real systems  
+- Bundled wordlists meant for cracking real accounts  
+
+By responsibly using and contributing to this project, you help promote ethical cybersecurity education.
 
