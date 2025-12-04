@@ -1,0 +1,30 @@
+# Disclaimer
+
+This repository is intended **solely for educational and ethical cybersecurity research purposes**.  
+The SHA256 password-cracking script provided here is designed to demonstrate concepts such as:
+
+- How hashing works
+- How SHA256 compares to other hashing algorithms
+- Why using weak or common passwords is insecure
+- How attackers may attempt offline brute force or dictionary-based cracking
+- How defenders can build better security practices by understanding offensive techniques
+
+## Ethical Use Only
+You **may not** use this code, in whole or in part, for:
+
+- Unauthorized system access  
+- Cracking passwords you do not own  
+- Bypassing security controls  
+- Malicious activity of any kind  
+
+The author assumes **no responsibility** for misuse of this code.  
+By using this repository, you agree to comply with all applicable laws and regulations in your jurisdiction.
+
+## For Students & Employers
+This project exists to show:
+
+- Understanding of cryptographic hashing
+- Safe handling of security-related code in GitHub
+- Ethical red-team / blue-team learning practices
+
+If you plan to fork, modify, or extend this code, ensure your use remains within **ethical and legal boundaries**.
