@@ -5,6 +5,14 @@
 
 This script is for educational purposes only and was created as part of the Python 101 course on TCM Academy, Use it only on data you own or are authorized to test.
 
+## Responsible Use Notice
+
+**You may only use this tool on hashes you personally own or have explicit written permission to test.  
+Unauthorized password cracking is illegal and unethical.**
+
+Using this project in any unauthorized context is strictly prohibited.
+
+-------------
 
 This script is a course project through the Python 101 course for Ethical Hacking at TCM Academy. 
 
@@ -25,8 +33,10 @@ This script takes a SHA256 hash as an input, runs through the "rockyou.txt" file
 
 The script also uses pwntools "log.progress()" feature to show real time updates. 
 
-*How to use the script:*
-- First make sure pwntools is installed
+*How to use the script and requirements:*
+- First make sure python 3 and pwntools are installed
+- A **wordlist you provide** (not included in this repository)
+- Wordlists are intentionally *not shipped* with this repo to avoid licensing issues and to reduce potential misuse.
 - Then run the script in your terminal as this "python3 sha256-cracker.py <insert sha256_hash_here>"
 - If the password exists in the text file provided you would then see something like "Password hash found after 56 attempts! hashes to password"
 - If a password is *not* found you would get "Password hash not found"
