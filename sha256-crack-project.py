@@ -1,3 +1,17 @@
+"""
+SHA256 Password Cracking Tool (Educational Use Only)
+
+This script is intended strictly for:
+- Educational cybersecurity research
+- Authorized penetration testing
+- Classroom, CTF, and controlled lab environments
+
+- Illegal or unauthorized password cracking is strictly prohibited.
+- Use only on hashes you personally own or have written permission to test.
+
+The author assumes no liability for misuse.
+"""
+
 from pwn import *
 import sys
 
@@ -20,4 +34,5 @@ with log.progress("Attempting to crack: {}!\n".format(wanted_hash)) as p:
 				p.success("Password hash found after {} attempts! hashes to {} ".format(attempts, password.decode('latin-1'), password_hash))
 				exit()
 			attempts += 1
+
 		p.failure("Password hash not found")
