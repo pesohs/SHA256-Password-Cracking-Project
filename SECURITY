@@ -1,0 +1,45 @@
+# Security Policy
+
+## Supported Versions
+The SHA256 Password Cracker project is an educational tool intended for use in authorized, legal, and controlled environments only.
+
+---
+
+## Reporting a Vulnerability
+If you discover a security issue or anything that could make this repository unsafe, please report it responsibly.
+
+**How to report:**
+- Open a **private GitHub issue** marked with the label **security**
+- Do **not** include real hashes or sensitive data in the issue
+
+You may contact the maintainer through GitHub Issues:
+- **GitHub Issues:** https://github.com/pesohs/SHA256-Password-Cracking-Project/issues
+
+---
+
+## Responsible Use Notice
+This repository contains code that can be used for password‑cracking demonstrations. This tool must **only** be used:
+
+- In environments where you have explicit permission  
+- For educational cybersecurity practice  
+- For password recovery on hashes you personally own  
+
+**You must not use this tool for:**
+- Unauthorized access  
+- Cracking passwords you do not own  
+- Any illegal or unethical activity  
+
+Misuse of this script is strictly prohibited.
+
+---
+
+## Disclaimer
+This project is provided for **educational and ethical security purposes only**.  
+By using this repository, you agree that:
+
+- You are solely responsible for your actions  
+- The author is not liable for misuse or resulting harm  
+- You will abide by all relevant laws and authorization requirements  
+
+If you are unsure whether something is permitted — **do not use the tool**.
+
