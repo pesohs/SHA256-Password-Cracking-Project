@@ -1,4 +1,11 @@
 # SHA256-Password-Cracking-Project
+
+
+*LEGAL DISCLAIMER*
+
+This script is for educational purposes only and was created as part of the Python 101 course on TCM Academy, Use it only on data you own or are authorized to test.
+
+
 This script is a course project through the Python 101 course for Ethical Hacking at TCM Academy. 
 
 This is another project I completed while going through the Python 101 course at TCM Academy,
@@ -25,7 +32,3 @@ The script also uses pwntools "log.progress()" feature to show real time updates
 - If a password is *not* found you would get "Password hash not found"
 
 As I mentioned before even though it is a basic password cracking script, As a beginner in cybersecurity it helps me understand how weak security measures can be exploited along with demonstrating core concepts in cybersecurity. It shows me that hashes aren't encrypted and that weak passwords can be cracked through wordlists. In the modern age where cyber crime is becoming more rampant along with data leaks it's important to understand how things like this work which is crucial for both Red team and Blue team. 
-
-*LEGAL DISCLAIMER*
-
-This script is for educational purposes only and was created as part of the Python 101 course on TCM Academy, Use it only on data you own or are authorized to test.
